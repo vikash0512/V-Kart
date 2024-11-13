@@ -1,61 +1,61 @@
-import productImg01 from "../Images/double-sofa-01.png";
-import productImg02 from "../Images/double-sofa-02.png";
-import productImg03 from "../Images/double-sofa-03.png";
+import productImg01 from "../Images/tshirts/tshirt1.png";
+import productImg02 from "../Images/tshirts/tshirt2.png";
+import productImg03 from "../Images/tshirts/tshirt3.png";
 
-import productImg04 from "../Images/single-sofa-01.jpg";
-import productImg05 from "../Images/single-sofa-02.jpg";
-import productImg06 from "../Images/single-sofa-03.jpg";
-import productImg007 from "../Images/single-sofa-04.png";
+import productImg04 from "../Images/tshirts/tshirt4.png";
+import productImg05 from "../Images/tshirts/tshirt5.png";
+import productImg06 from "../Images//shirts/shirt1.png";
+import productImg007 from "../Images/shirts/shirt2.png";
 
-import productImg07 from "../Images/arm-chair-01.jpg";
-import productImg08 from "../Images/arm-chair-02.jpg";
-import productImg09 from "../Images/arm-chair-03.jpg";
-import productImg10 from "../Images/arm-chair-01.jpg";
+import productImg07 from "../Images/shirts/shirt3.png";
+import productImg08 from "../Images/shirts/shirt4.png";
+import productImg09 from "../Images/shirts/shirt5.png";
+import productImg10 from "../Images/shirts/shirt6.png";
 
-import phone01 from "../Images/phone-01.jpg";
-import phone02 from "../Images/phone-02.jpg";
-import phone03 from "../Images/phone-03.png";
-import phone04 from "../Images/phone-04.jpg";
-import phone05 from "../Images/phone-05.jpg";
-import phone06 from "../Images/phone-06.jpg";
-import phone08 from "../Images/phone-08.png";
+import phone01 from "../Images/shirts/shirt7.png";
+import phone02 from "../Images/shirts/shirt8.png";
+import phone03 from "../Images/assesories/a1.png";
+import phone04 from "../Images/assesories/a2.png";
+import phone05 from "../Images/assesories/a3.png";
+import phone06 from "../Images/assesories/a4.png";
+import phone08 from "../Images/assesories/a5.png";
 
 import watch01 from "../Images/watch-01.jpg";
 import watch02 from "../Images/watch-02.jpg";
 import watch03 from "../Images/watch-03.jpg";
 import watch04 from "../Images/watch-04.jpg";
 
-import wireless01 from "../Images/wireless-01.png";
-import wireless02 from "../Images/wireless-02.png";
-import wireless03 from "../Images/wireless-03.png";
-import wireless04 from "../Images/wireless-04.png";
+import wireless01 from "../Images/assesories/a6.png";
+import wireless02 from "../Images/assesories/a7.png";
+import wireless03 from "../Images/assesories/a8.png";
+import wireless04 from "../Images/assesories/a9.png";
 
-import sofaSlide from "../Images/hero-img.png";
+import sofaSlide from "../Images/assesories/a2.png";
 import watchSlide from "../Images/watch-07.png";
 
 export const SliderData = [
   {
       id: 1,
-      title: "50% Off For Your First Shopping",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis lobortis consequat eu, quam etiam at quis ut convallis.",
+      title: "25% Off on Wallets",
+      desc: "Save 25% on your first wallet order! Grab yours now!",
       cover: sofaSlide,
   },
   {
       id: 2,
-      title: "50% Off For Your First Shopping",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis lobortis consequat eu, quam etiam at quis ut convallis.",
+      title: "20% Off on Tourist Bags",
+      desc: "Enjoy 25% off on your first order of stylish bags! ",
       cover: phone08,
   },
   {
       id: 3,
-      title: "50% Off For Your First Shopping",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis lobortis consequat eu, quam etiam at quis ut convallis.",
+      title: "35% Off On Bags",
+      desc: "Enjoy 25% off on your first order of stylish bags! ",
       cover: wireless01,
   },
   {
       id: 4,
-      title: "50% Off For Your First Shopping",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis lobortis consequat eu, quam etiam at quis ut convallis.",
+      title: "30% Off on Watches",
+      desc: "Get 25% off your first watch order! Style meets savings—shop now!",
       cover: watchSlide,
   },
 ];
@@ -64,25 +64,25 @@ export const serviceData = [
   {
     icon: <ion-icon name="car"></ion-icon>,
     title: "Free Shipping",
-    subtitle: "Lorem ipsum dolor sit amet.",
+    subtitle: "Enjoy Free Shipping Today!",
     bg: "#fdefe6",
   },
   {
     icon: <ion-icon name="card"></ion-icon>,
     title: "Safe Payment",
-    subtitle: "Lorem ipsum dolor sit amet.",
+    subtitle: "Shop Confidently with Safe Payment",
     bg: "#ceebe9",
   },
   {
     icon: <ion-icon name="shield-half-outline"></ion-icon>,
     title: "Secure Payment",
-    subtitle: "Lorem ipsum dolor sit amet.",
+    subtitle: "Secure Payments, Worry-Free Shopping",
     bg: "#e2f2b2",
   },
   {
     icon: <ion-icon name="headset"></ion-icon>,
     title: " Back Guarantee",
-    subtitle: "Lorem ipsum dolor sit amet.",
+    subtitle: "Money-Back Guarantee for Assurance",
     bg: "#d6e5fb",
   },
 ];
@@ -90,7 +90,7 @@ export const serviceData = [
 export const discoutProducts = [
   {
     id: "01",
-    productName: "Stone and Beam Westview ",
+    productName: "Classic Fit Tee",
     imgUrl: productImg01,
     category: "sofa",
     price: 193,
@@ -109,7 +109,7 @@ export const discoutProducts = [
   },
   {
     id: "02",
-    productName: "Rivet Bigelow Modern ",
+    productName: "Everyday Essential Tee ",
     imgUrl: productImg02,
     category: "sofa",
     price: 253,
@@ -132,7 +132,7 @@ export const discoutProducts = [
   },
   {
     id: "08",
-    productName: "Baltsar Chair",
+    productName: "Classic Button-Down",
     imgUrl: productImg08,
     category: "chair",
     price: 89,
@@ -155,7 +155,7 @@ export const discoutProducts = [
   },
   {
     id: "09",
-    productName: "Helmar Chair",
+    productName: "Everyday Essential Shirt",
     imgUrl: productImg09,
     category: "chair",
     price: 112,
@@ -178,7 +178,7 @@ export const discoutProducts = [
   },
   {
     id: "12",
-    productName: "Realme 8",
+    productName: "Sleek Leather Wallet",
     imgUrl: phone03,
     category: "mobile",
     price: 599,
@@ -201,7 +201,7 @@ export const discoutProducts = [
   },
   {
     id: "13",
-    productName: "One Plus Nord",
+    productName: "Compact Wallet Design",
     imgUrl: phone04,
     category: "mobile",
     price: 799,
@@ -247,7 +247,7 @@ export const products = [
 
   {
     id: "02",
-    productName: "Rivet Bigelow Modern ",
+    productName: "Timeless Basic Tee",
     imgUrl: productImg02,
     category: "sofa",
     price: 253,
@@ -270,7 +270,7 @@ export const products = [
 
   {
     id: "03",
-    productName: "Amazon Brand Modern Sofa",
+    productName: "Sleek Modern Shirt",
     imgUrl: productImg03,
     category: "sofa",
     price: 173,
@@ -314,7 +314,7 @@ export const products = [
   },
   {
     id: "04",
-    productName: "Fllufy Sheep Sofa",
+    productName: "Bold Checked",
     imgUrl: productImg04,
     category: "sofa",
     price: 163,
@@ -337,7 +337,7 @@ export const products = [
 
   {
     id: "05",
-    productName: "Faux Velvet Sofa",
+    productName: "Premium Cotton t-Shirt",
     imgUrl: productImg05,
     category: "sofa",
     price: 163,
@@ -360,7 +360,7 @@ export const products = [
 
   {
     id: "06",
-    productName: "Fllufy Sheep Sofa",
+    productName: "Timeless Casual Shirt",
     imgUrl: productImg06,
     category: "sofa",
     price: 163,
@@ -382,7 +382,7 @@ export const products = [
   },
   {
     id: "07",
-    productName: "Sakarias Armchair",
+    productName: "Sharp Formal Shirt",
     imgUrl: productImg07,
     category: "chair",
     price: 99,
@@ -405,7 +405,7 @@ export const products = [
 
   {
     id: "27",
-    productName: "Modern Arm Sofa",
+    productName: "Versatile Work Shirt",
     imgUrl: productImg007,
     category: "sofa",
     price: 173,
@@ -428,7 +428,7 @@ export const products = [
 
   {
     id: "08",
-    productName: "Baltsar Chair",
+    productName: "Relaxed Fit Shirt",
     imgUrl: productImg08,
     category: "chair",
     price: 89,
@@ -451,7 +451,7 @@ export const products = [
 
   {
     id: "09",
-    productName: "Helmar Chair",
+    productName: "Smart & Stylish Shirt",
     imgUrl: productImg09,
     category: "chair",
     price: 112,
@@ -474,7 +474,7 @@ export const products = [
 
   {
     id: "10",
-    productName: "Apple iPhone 12 Pro",
+    productName: "Premium Cotton Shirt",
     imgUrl: phone01,
     category: "mobile",
     price: 799,
@@ -496,7 +496,7 @@ export const products = [
   },
   {
     id: "25",
-    productName: "Sakarias Armchair",
+    productName: "Essential Office Shirt",
     imgUrl: productImg10,
     category: "chair",
     price: 99,
@@ -518,7 +518,7 @@ export const products = [
   },
   {
     id: "11",
-    productName: "Apple iPhone 12 Max",
+    productName: "Classic Plaid Shirt",
     imgUrl: phone02,
     category: "mobile",
     price: 799,
@@ -541,7 +541,7 @@ export const products = [
 
   {
     id: "12",
-    productName: "Realme 8",
+    productName: "Minimalist Wallet Design",
     imgUrl: phone03,
     category: "mobile",
     price: 599,
@@ -564,7 +564,7 @@ export const products = [
 
   {
     id: "13",
-    productName: "One Plus Nord",
+    productName: "Premium Leather Wallet",
     imgUrl: phone04,
     category: "mobile",
     price: 799,
@@ -587,7 +587,7 @@ export const products = [
 
   {
     id: "14",
-    productName: "Apple iPhone 13 Pro",
+    productName: "Chic Everyday Bag",
     imgUrl: phone05,
     category: "mobile",
     price: 899,
@@ -610,7 +610,7 @@ export const products = [
 
   {
     id: "15",
-    productName: "Samsung Galaxy S22",
+    productName: "Stylish Travel Bag",
     imgUrl: phone06,
     category: "mobile",
     price: 699,
@@ -725,7 +725,7 @@ export const products = [
 
   {
     id: "20",
-    productName: "Beat Studio Wireless",
+    productName: "Versatile Tote Bag",
     imgUrl: wireless01,
     category: "wireless",
     price: 199,
@@ -748,7 +748,7 @@ export const products = [
 
   {
     id: "21",
-    productName: "Beat EP Headphones",
+    productName: "Chic Long Sleeve Shirt",
     imgUrl: wireless03,
     category: "wireless",
     price: 199,
@@ -770,7 +770,7 @@ export const products = [
   },
   {
     id: "22",
-    productName: "Black Headphones",
+    productName: "Essential Cardholder Wallet",
     imgUrl: wireless02,
     category: "wireless",
     price: 169,
@@ -792,7 +792,7 @@ export const products = [
   },
   {
     id: "23",
-    productName: "Bluetooth Headphones",
+    productName: "Stylish Winter Jacket",
     imgUrl: wireless04,
     category: "wireless",
     price: 139,

@@ -10,9 +10,9 @@ const Footer = () => {
             <Col md={3} sm={5} className='box'>
               <div className="logo">
                   <ion-icon name="bag"></ion-icon>
-                  <h1>Multimart</h1>
+                  <h1>V-Kart</h1>
               </div>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor libero id et, in gravida. Sit diam duis mauris nulla cursus. Erat et lectus vel ut sollicitudin elit at amet.</p>
+              <p>Your one-stop online shop for stylish, high-quality clothing at affordable prices. Discover the latest trends in fashion, from casual wear to formal attire, with a wide selection for men, women, and kids. Enjoy seamless shopping, secure payment options, and fast delivery to keep you looking your best!"</p>
             </Col>
             <Col md={3} sm={5} className='box'>
               <h2>About Us</h2>
@@ -37,9 +37,12 @@ const Footer = () => {
             <Col md={3} sm={5} className='box'>
               <h2>Contact Us</h2>
               <ul>
-                <li>70 Washington Square South, New York, NY 10012, United States </li>
-                <li>Email: uilib.help@gmail.com</li>
-                <li>Phone: +1 1123 456 780</li>
+                <li>Vikash Kumar</li>
+                <li>Jalandhar-Delhi, G.T. Road,
+                    Phagwara, Punjab
+                    (INDIA) -144411.</li>
+                <li>Email:vikash.kumar@lpu.in</li>
+                <li>Phone: +91 18245170000</li>
               </ul>
             </Col>
           </Row>

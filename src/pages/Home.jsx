@@ -16,12 +16,12 @@ const Home = () => {
       <SliderHome />
       <Wrapper />
       <Section
-        title="Big Discount"
+        title="Tranding"
         bgColor="#f6f9fc"
         productItems={discoutProducts}
       />
       <Section
-        title="New Arrivals"
+        title="Winters"
         bgColor="white"
         productItems={newArrivalData}
       />
