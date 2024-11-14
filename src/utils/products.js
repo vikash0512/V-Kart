@@ -92,7 +92,7 @@ export const discoutProducts = [
     id: "01",
     productName: "Classic Fit Tee",
     imgUrl: productImg01,
-    category: "sofa",
+    category: "T-shirt",
     price: 193,
     discount:30,
     shortDesc:
@@ -111,7 +111,7 @@ export const discoutProducts = [
     id: "02",
     productName: "Everyday Essential Tee ",
     imgUrl: productImg02,
-    category: "sofa",
+    category: "T-shirt",
     price: 253,
     discount:20,
     shortDesc:
